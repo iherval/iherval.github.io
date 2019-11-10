@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.3  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGEDBY" CONTENT="irene ">
+	<META NAME="CHANGED" CONTENT="20191110;18365787">
+	<META NAME="CHANGEDBY" CONTENT="irene ">
+	<META NAME="created" CONTENT="2019-10-31T13:15:29.595678822">
+	<META NAME="changed" CONTENT="2019-11-08T14:10:32.752443456">
+</HEAD>
+<BODY LANG="es-ES" DIR="LTR">
+<P><B><FONT SIZE=6 STYLE="font-size: 22pt">SHH</FONT> </B>
+</P>
+<P><FONT SIZE=5><U><B>EJERCICIO 1</B></U></FONT></P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">1.Busca
+informaci&oacute;n en Internet de como montar un servidor telnet,
+bien en Windows o bien en GNU/Linux .</FONT></FONT></P>
+<OL>
+	<LI><P><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-weight: normal">Para
+	comenzar la instalaci&oacute;n abrimos la terminal y ejecutamos el
+	comando </SPAN></FONT></FONT></SPAN><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><I><SPAN STYLE="font-weight: normal">sudo
+	apt update</SPAN></I></FONT></FONT></SPAN><SPAN STYLE="text-decoration: none">
+	</SPAN><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-weight: normal">para
+	actualizar</SPAN></FONT></FONT></SPAN></P>
+</OL>
+<P><IMG SRC="SSH_html_m5bf2565a.png" NAME="gr&aacute;ficos1" ALIGN=LEFT WIDTH=573 HEIGHT=383 BORDER=0><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<OL START=2>
+	<LI><P STYLE="font-style: normal; font-weight: normal; text-decoration: none">
+	<FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">sudo
+	apt-cache search telnetd para buscar donde se ha guardo el telnetd</FONT></FONT></P>
+</OL>
+<P><IMG SRC="SSH_html_26738815.png" NAME="gr&aacute;ficos3" ALIGN=LEFT WIDTH=584 HEIGHT=364 BORDER=0><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<OL START=3>
+	<LI><P><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-weight: normal">Seguidamente
+	el comando </SPAN></FONT></FONT></SPAN><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><I><SPAN STYLE="font-weight: normal">sudo
+	apt install telnetd</SPAN></I></FONT></FONT></SPAN></P>
+</OL>
+<P><IMG SRC="SSH_html_m6cc4f17c.png" NAME="gr&aacute;ficos2" ALIGN=LEFT WIDTH=612 HEIGHT=314 BORDER=0><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<OL START=4>
+	<P></P>
+	<P></P>
+</OL>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<OL START=4>
+	<LI><P><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><I><SPAN STYLE="font-weight: normal">sudo
+	etc/init.d/openbsd-inetd restart </SPAN></I></FONT></FONT></SPAN><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">para
+	reiniciar el telnet</SPAN></SPAN></FONT></FONT></SPAN></P>
+</OL>
+<P><IMG SRC="SSH_html_653c5ffc.png" NAME="gr&aacute;ficos4" ALIGN=LEFT WIDTH=603 HEIGHT=154 BORDER=0><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<OL START=5>
+	<LI><P><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><I><SPAN STYLE="font-weight: normal">nmap
+	localhost </SPAN></I></FONT></FONT></SPAN><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">para
+	buscar todos los programas parecidos a telnetd</SPAN></SPAN></FONT></FONT></SPAN></P>
+</OL>
+<P><IMG SRC="SSH_html_43b422aa.png" NAME="gr&aacute;ficos5" ALIGN=LEFT WIDTH=592 HEIGHT=311 BORDER=0><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<OL START=6>
+	<LI><P STYLE="font-style: normal; font-weight: normal; text-decoration: none">
+	<FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">Para
+	comprobar que ha sido instalado correctamente nos iremos al terminal
+	de ubuntu y pondemos el comando telnet 192.168.18.202</FONT></FONT></P>
+</OL>
+<P><IMG SRC="SSH_html_m36aa7828.png" NAME="gr&aacute;ficos6" ALIGN=LEFT WIDTH=515 HEIGHT=294 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">2.Una
+vez instalado lanza el sniffer wireshark y atrapa una conexi&oacute;n
+telnet. Indica que puertos utiliza tanto el servidor como el cliente,
+as&iacute; como los protocolos usados en las distintas capas.</FONT></FONT></P>
+<OL>
+	<LI><P>Nos metemos en la terminal y ponemos el comando <I>sudo
+	wireshark </I>
+	</P>
+</OL>
+<P><IMG SRC="SHH.HTML_html_2631ac890bd5d456.png" NAME="Imagen7" ALIGN=LEFT WIDTH=473 HEIGHT=400 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<OL START=2>
+	<LI><P>En la terminal poner <I>telnet 192.168.18.202</I></P>
+</OL>
+<P><BR><BR>
+</P>
+<P><IMG SRC="SHH.HTML_html_5bc457a092566d2f.png" NAME="Imagen8" ALIGN=LEFT WIDTH=486 HEIGHT=316 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<OL START=3>
+	<LI><P>Nos vamos wireshark, paramos el tr&aacute;fico que hemos
+	generado y buscamos telnet</P>
+</OL>
+<P><BR><BR>
+</P>
+<P><IMG SRC="SHH.HTML_html_42cbffab156a61fc.png" NAME="Imagen9" ALIGN=LEFT WIDTH=485 HEIGHT=289 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<OL START=3>
+	<LI><P>Pinchamos en una de la direcciones telnet de nuestra ip
+	192.168.18.202. Le damos clip derecho y pinchamos en follow, se nos
+	abrir&aacute; una pesta&ntilde;a en la que haremos clip en TCP
+	Stream, donde nos muestra los datos del flujo TCP</P>
+</OL>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><IMG SRC="SHH.HTML_html_28d9629f71d3baf6.png" NAME="Imagen10" ALIGN=LEFT WIDTH=656 HEIGHT=303 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">3.Indica
+los datos mas relevantes de cada capa.</FONT></FONT></P>
+<P><IMG SRC="SHH.HTML_html_7937dde0d9c8ef35.png" NAME="Imagen11" ALIGN=LEFT WIDTH=631 HEIGHT=429 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">4.Calcula
+el tama&ntilde;o de cada capa, separando el payload de la cabecera.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0cm"><IMG SRC="SHH.HTML_html_7937dde0d9c8ef35.png" NAME="Imagen12" ALIGN=LEFT WIDTH=554 HEIGHT=401 BORDER=0><BR CLEAR=LEFT><IMG SRC="SHH.HTML_html_83f211565363446b.gif" NAME="Imagen16" ALIGN=LEFT WIDTH=81 HEIGHT=11 BORDER=0><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><FONT SIZE=4 STYLE="font-size: 15pt">Ser&iacute;a
+TCP payload (19 bytes)</FONT></P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">5.Comprueba
+que login y contrase&ntilde;a viajan en texto plano.</FONT></FONT></P>
+<P><IMG SRC="SHH.HTML_html_1aabad67c9b8b488.png" NAME="Imagen13" ALIGN=LEFT WIDTH=631 HEIGHT=431 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">6.Crea
+en el equipo remoto un directorio, un archivo de texto y
+posteriormente borralos.</FONT></FONT></P>
+<P><IMG SRC="SHH.HTML_html_4371e5ee7580d06b.png" NAME="Imagen15" ALIGN=LEFT WIDTH=623 HEIGHT=397 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><IMG SRC="SHH.HTML_html_58db98ae87635f6d.png" NAME="Imagen14" ALIGN=LEFT WIDTH=533 HEIGHT=384 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=5><U><B>EJERCICIO
+2</B></U></FONT></FONT></P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">1.Instala
+un servidor SSH en tu sistema GNU/Linux y comprueba que el puerto 22
+esta en escucha.</FONT></FONT></P>
+<P><IMG SRC="SHH.HTML_html_ca104e3498559121.png" NAME="Imagen19" ALIGN=LEFT WIDTH=630 HEIGHT=383 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><IMG SRC="SHH.HTML_html_ace2e921711803fa.png" NAME="Imagen26" ALIGN=LEFT WIDTH=597 HEIGHT=329 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">2.Crea
+dos usuarios denominados usuario1 y usuario2, que vas a usarlos en el
+ejercicio.</FONT></FONT></P>
+<OL>
+	<LI><P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">Para
+	crear los usuarios utilizamos el comando adduser</FONT></FONT></P>
+</OL>
+<P><IMG SRC="SHH.HTML_html_c6e8012147cd1129.png" NAME="Imagen17" ALIGN=LEFT WIDTH=653 HEIGHT=443 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">3.Comprueba
+que puedes acceder mediante ssh a esos usuarios.</FONT></FONT></P>
+<P><IMG SRC="SHH.HTML_html_4cb32e2993fd1c8d.png" NAME="Imagen18" ALIGN=LEFT WIDTH=711 HEIGHT=427 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">4.Cambia
+el puerto del servidor e intenta a acceder de nuevo.</FONT></FONT></P>
+<P><IMG SRC="SHH.HTML_html_f7bab73730acfd54.png" NAME="Imagen20" ALIGN=LEFT WIDTH=421 HEIGHT=242 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">5.Cambia
+la configuraci&oacute;n del servidor para que puedas acceder al
+sistema con usuario1 y NO con usuario2.</FONT></FONT></P>
+<P><IMG SRC="SHH.HTML_html_564161749dc7b943.png" NAME="Imagen21" ALIGN=LEFT WIDTH=672 HEIGHT=468 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">6.Cambia
+la configuraci&oacute;n del servidor para que solo pueda acceder
+desde una IP determinada.</FONT></FONT></P>
+<OL>
+	<LI><P><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-weight: normal">Ponemos
+	el comnado sudo nano </SPAN></FONT></FONT></SPAN><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><I><SPAN STYLE="font-weight: normal">etc/</SPAN></I></FONT></FONT></SPAN><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">ssh/sshd_config</SPAN></SPAN></FONT></FONT></SPAN></P>
+</OL>
+<P><IMG SRC="SHH.HTML_html_fdf5a1dcabd0554a.png" NAME="Imagen22" ALIGN=LEFT WIDTH=470 HEIGHT=282 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<OL START=2>
+	<LI><P STYLE="font-style: normal; font-weight: normal; text-decoration: none">
+	<FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">Cuando
+	estamos dentro ponemos al final del todo AllowUser pi usuario1</FONT></FONT></P>
+</OL>
+<P><IMG SRC="SHH.HTML_html_fdf5a1dcabd0554a.png" NAME="Imagen23" ALIGN=LEFT WIDTH=451 HEIGHT=262 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<P STYLE="font-weight: normal; text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt">7.Captura
+con wireshark una conexi&oacute;n ssh, comprueba que login y
+contrase&ntilde;a van encriptada. Analiza cada una de las capas
+TCP/IP implicadas indicando los datos mas relevantes,adem&aacute;s
+del tama&ntilde;o de cada capa, separando datos y cabecera</FONT></FONT></P>
+<P ALIGN=JUSTIFY><SPAN STYLE="text-decoration: none"><FONT FACE="sans-serif"><FONT SIZE=3 STYLE="font-size: 13pt"><SPAN STYLE="font-weight: normal">Abriremos
+Wireshark y no hiremos en la terminal y pondremos el comando ssh
+<A HREF="mailto:pi@192.168.18.202">pi@192.168.18.202</A> para crear
+tr&aacute;fico en Wireshark. Cuando hayamos generado tr&aacute;fico
+pinchamos en la fila SSH y le daremos bot&oacute;n derecho a follow y
+a TCP Stram</SPAN></FONT></FONT></SPAN></P>
+<P><IMG SRC="SHH.HTML_html_ca104e3498559121.png" NAME="Imagen24" ALIGN=LEFT WIDTH=715 HEIGHT=392 BORDER=0><IMG SRC="SHH.HTML_html_8f234b19a25a966d.png" NAME="Imagen25" ALIGN=LEFT WIDTH=650 HEIGHT=453 BORDER=0><BR><BR>
+</P>
+</BODY>
+</HTML>
