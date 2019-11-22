@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="created" content="2019-11-21T13:07:18.728639755"/>
+	<meta name="changed" content="2019-11-22T14:20:53.011896281"/>
+	<style type="text/css">
+		@page { margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 115% }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="es-ES" dir="ltr">
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="arial, sans-serif"><font size="5" style="font-size: 18pt"><b>Práctica
+1</b></font></font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Instala
+el servidor vsftpd en la Raspberry Pi con que tenga las siguientes
+características:</font></font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt">1-Que
+sea un servidor FTP anónimo para descargas.</font></font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<ul>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Ponemos
+	el comando sudo nano /</font></font><font face="arial, sans-serif"><font size="4" style="font-size: 15pt"><i>etc</i></font></font><span style="font-variant: normal"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt"><span style="font-style: normal">/vsftpd.conf</span></font></font></span></p>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Cambiamos
+	en anonymous_enable = no por YES</font></font></p>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; font-variant: normal; font-style: normal; line-height: 100%">
+	</p>
+</ul>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><img src="vsftpd_html_24249635965e5337.png" name="Imagen1" align="left" width="685" height="255">
+  <br clear="left"/>
+</img>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt">2-Que
+sea un servidor FTP para usuarios de sistema y que puedan tanto
+descargar como subir archivos.</font></font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<ul>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Ponemos
+	el comando sudo nano /etc/vsftpd.conf</font></font></p>
+</ul>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><img src="vsftpd_html_71ed5704914c505b.png" name="Imagen2" align="left" width="543" height="287" border="0"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt">3-Funcione
+en modo pasivo.</font></font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<ul>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Abrimos
+	wireshark</font></font></p>
+</ul>
+<ul>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Nos
+	vamos a Firefox y ponemos <a href="ftp://192.168.18.202/">ftp://192.168.18.202</a>
+	para crear tráfico</font></font></p>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Una
+	vez que hemos generado tráfico lo paramos y ponemos en la barra
+	ftp, seleccionamos uno botón derecho follow y ya nos sale el modo
+	pasico</font></font></p>
+</ul>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><img src="vsftpd_html_6deaba7ae173a11.png" name="Imagen4" align="left" width="415" height="303">
+  <br clear="left"/>
+</img>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt">4-Habilita
+los logs.</font></font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<ul>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Ponemos
+	el comando sudo less /var/log/vsftpd.log</font></font></p>
+</ul>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><img src="vsftpd_html_374ff9e805532fe2.png" name="Imagen5" align="left" width="643" height="252" border="0"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt">5-Cambia
+el mensaje de bienvenida</font></font></p>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<ul>
+	<li/>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%">
+	<font face="arial, sans-serif"><font size="4" style="font-size: 15pt">Ponemos
+	el comando sudo nano </font></font><font face="arial, sans-serif"><font size="4" style="font-size: 15pt"><i>etc</i></font></font><span style="font-variant: normal"><font face="arial, sans-serif"><font size="4" style="font-size: 15pt"><span style="font-style: normal">/motd</span></font></font></span></p>
+</ul>
+<p align="justify" style="margin-bottom: 0cm; line-height: 100%"><img src="vsftpd_html_bfb228fa446e9ede.png" name="Imagen3" align="left" width="669" height="172" border="0"/>
+<br/>
+
+</p>
+</body>
+</html>
